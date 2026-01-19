@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Phone, Linkedin, Instagram, Send } from "lucide-react";
+import { Mail, Linkedin, Instagram, Send } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -42,16 +42,6 @@ export default function Contact() {
                   <div className="ml-4">
                     <p className="text-sm text-neutral-500">Email Me</p>
                     <p className="text-neutral-700 font-medium group-hover:text-primary transition-colors">keziaestha@gmail.com</p>
-                  </div>
-                </a>
-                
-                <a href="tel:+6281287323730" className="flex items-center group">
-                  <div className="w-12 h-12 bg-purple-50 rounded-full flex items-center justify-center text-secondary group-hover:scale-110 transition-transform">
-                    <Phone size={20} />
-                  </div>
-                  <div className="ml-4">
-                    <p className="text-sm text-neutral-500">Call Me</p>
-                    <p className="text-neutral-700 font-medium group-hover:text-secondary transition-colors">+62-8128-7323-730</p>
                   </div>
                 </a>
               </div>

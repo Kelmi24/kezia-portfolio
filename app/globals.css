@@ -41,3 +41,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
 }
+
+/* Ensure all interactive elements have pointer cursor */
+button,
+[role="button"],
+a,
+input[type="submit"],
+input[type="button"] {
+  cursor: pointer;
+}

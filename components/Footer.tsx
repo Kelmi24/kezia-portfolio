@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Linkedin, Mail, Phone } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -30,9 +30,6 @@ export default function Footer() {
               </a>
               <a href="mailto:keziaestha@gmail.com" className="text-gray-300 hover:text-secondary transition-colors">
                 <Mail size={24} />
-              </a>
-              <a href="tel:+6281287323730" className="text-gray-300 hover:text-secondary transition-colors">
-                <Phone size={24} />
               </a>
             </div>
           </div>

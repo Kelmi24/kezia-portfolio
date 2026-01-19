@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -59,13 +59,6 @@ export default function Hero() {
               View My Work
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
-            <a
-              href="/resume.pdf" // Placeholder path
-              className="inline-flex items-center justify-center px-8 py-3 rounded-full bg-white text-secondary border-2 border-secondary font-medium hover:bg-secondary hover:text-white transition-all duration-300"
-            >
-              Download Resume
-              <Download className="ml-2 h-5 w-5" />
-            </a>
           </motion.div>
         </div>
 
