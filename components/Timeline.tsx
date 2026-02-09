@@ -7,42 +7,71 @@ import { useState } from "react";
 const experiences = [
   {
     id: 1,
-    role: "Project Manager",
-    company: "Digital Agency",
-    period: "2023 - Present",
-    description: "Leading cross-functional teams to deliver digital products and marketing campaigns.",
+    role: "Marketplace Operations & Customer Experience",
+    company: "HOOP Inc",
+    period: "2024 - Present",
+    description: "Supported customer experience, marketplace operations, and listing workflows across multiple resale platforms including Poshmark, eBay, Depop, and Vendoo.",
     details: [
-      "Managed 10+ concurrent projects with a 95% on-time delivery rate.",
-      "Implemented Agile methodologies, improving team velocity by 20%.",
-      "Facilitated client communication and stakeholder management."
+      "Managed end-to-end operations across multiple resale marketplaces (Poshmark, eBay, Depop) and listing infrastructure (Vendoo).",
+      "Processed and validated hundreds of sales actions (initiations, cancellations, returns, tracking updates).",
+      "Executed 1,000+ operational updates across Pending Sales, Tracking Status, Venmo, Returns, and Account Deletion trackers.",
+      "Built a centralized FAQ & response template system, improving response speed and consistency.",
+      "Delivered executive-ready daily reports used by leadership for operational decisions."
     ],
     color: "bg-purple-50 border-purple-200 text-primary",
   },
   {
     id: 2,
-    role: "E-commerce Manager",
-    company: "Retail Brand",
-    period: "2021 - 2023",
-    description: "Managed online store operations, product listings, and customer service.",
+    role: "E-Commerce Admin & Growth Management",
+    company: "E-Commerce Growth",
+    period: "2023 - 2024",
+    description: "Scaled e-commerce operations and marketplace performance across regional storefronts on Shopee and TikTok Shop.",
     details: [
-      "Increased online sales by 40% through optimized product listings.",
-      "Managed inventory and logistics for 500+ SKUs.",
-      "Coordinated with marketing team for promotional campaigns."
+      "Directed strategy and operations for 5+ online stores across major SEA marketplaces.",
+      "Drove IDR 500M+ GMV and 11,000+ monthly orders, maintaining performance stability at scale.",
+      "Achieved 476% sales growth in one month for a new store through data-led optimization.",
+      "Strategized regional campaigns for Ramadhan & Lebaran, amplifying peak demand results."
     ],
     color: "bg-purple-50 border-purple-200 text-secondary",
   },
   {
     id: 3,
-    role: "Project Coordinator",
-    company: "Tech Startup",
-    period: "2020 - 2021",
-    description: "Assisted in project planning, documentation, and team coordination.",
+    role: "Regional Talent & Operations Management",
+    company: "Ishinora",
+    period: "2022 - 2023",
+    description: "Orchestrated high-volume creative production and cross-country collaboration supporting international photography & videography teams.",
     details: [
-      "Maintained project documentation and tracked progress.",
-      "Organized team meetings and prepared minutes.",
-      "Supported QA testing and bug tracking."
+      "Directed 50+ creative professionals across 5 countries, ensuring performance alignment.",
+      "Coordinated 100+ project schedules, optimizing timelines across multiple time zones.",
+      "Managed relationships with 20+ international clients, driving repeat engagements."
     ],
     color: "bg-blue-50 border-blue-200 text-accent",
+  },
+  {
+    id: 4,
+    role: "Website Launch & Product Database Engineering",
+    company: "Smilie.io",
+    period: "2022",
+    description: "Led large-scale digital catalog assembly and website content workflows for a major product launch.",
+    details: [
+      "Delivered 500+ optimized product listings within 1 week, supporting a launch of 1,000+ new SKUs.",
+      "Built a structured product-asset pipeline using Google Sheets, ImageKit.io & Airtable.",
+      "Designed and standardized product visuals through Canva for uniform brand presentation."
+    ],
+    color: "bg-purple-50 border-purple-200 text-primary",
+  },
+  {
+    id: 5,
+    role: "Shopify Product Systems & Launch Execution",
+    company: "The PureStitch",
+    period: "2021 - 2022",
+    description: "Enabled rapid product go-live cycles and storefront optimization for high-volume apparel launches.",
+    details: [
+      "Executed end-to-end product uploads in Shopify, including titles, descriptions, variants, pricing, and visuals.",
+      "Published 50 new products in 1–2 days for the Midsummer Collection release.",
+      "Managed real-time inventory, promotional updates, and homepage adjustments."
+    ],
+    color: "bg-blue-50 border-blue-200 text-secondary",
   },
 ];
 

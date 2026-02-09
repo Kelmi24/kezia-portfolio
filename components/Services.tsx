@@ -5,24 +5,24 @@ import { Check, Layout, ShoppingBag, Users } from "lucide-react";
 
 const services = [
   {
-    title: "Project Management",
-    description: "I bring order to chaos. From planning to execution, I ensure your projects are delivered on time and within budget.",
+    title: "Marketplace Operations",
+    description: "End-to-end operations management across multiple resale and e-commerce platforms, ensuring seamless workflows and customer satisfaction.",
     icon: Users,
-    features: ["Agile & Scrum Methodologies", "Team Leadership & Coordination", "Resource Allocation", "Risk Management"],
+    features: ["Multi-Platform Management (Poshmark, eBay, Depop, Vendoo)", "Sales Processing & Order Tracking", "Customer Experience & Support Systems", "Operations Reporting & Analytics"],
     color: "bg-purple-50 text-primary",
   },
   {
-    title: "Digital Marketing",
-    description: "Data-driven strategies to grow your brand presence and engage your target audience effectively.",
-    icon: Layout,
-    features: ["Social Media Strategy", "Content Planning", "Campaign Optimization", "Performance Analytics"],
+    title: "E-Commerce Management",
+    description: "Scaling online store operations and driving growth through data-led strategies across major marketplaces.",
+    icon: ShoppingBag,
+    features: ["Shopify, Shopee & TikTok Shop Management", "Product Listing & Inventory Optimization", "Campaign Strategy & Execution", "Performance Analytics & Growth"],
     color: "bg-purple-50 text-secondary",
   },
   {
-    title: "E-commerce Ops",
-    description: "Streamlining your online store operations to maximize sales and improve customer satisfaction.",
-    icon: ShoppingBag,
-    features: ["Shopify Management", "Product Listing Optimization", "Inventory Management", "Customer Service Systems"],
+    title: "Product Database & Content",
+    description: "Building structured product catalogs and content pipelines to support large-scale launches and brand consistency.",
+    icon: Layout,
+    features: ["Product Data Management (Airtable, Google Sheets)", "Visual Content Standardization (Canva)", "Asset Pipeline & Automation", "Website Content & Launch Coordination"],
     color: "bg-blue-50 text-accent",
   },
 ];
