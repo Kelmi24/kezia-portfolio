@@ -91,7 +91,7 @@ export default function Hero() {
               </div>
               <div>
                 <p className="text-xs text-neutral-500 font-bold">Experience</p>
-                <p className="text-sm font-bold text-neutral-text">3+ Years</p>
+                <p className="text-sm font-bold text-neutral-text">5+ Years</p>
               </div>
             </motion.div>
           </div>
