@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Check, Layout, ShoppingBag, Users } from "lucide-react";
+import { Check, Layout, ShoppingBag, Users, Calendar, Briefcase } from "lucide-react";
 
 const services = [
   {
@@ -25,6 +25,20 @@ const services = [
     features: ["Product Data Management (Airtable, Google Sheets)", "Visual Content Standardization (Canva)", "Asset Pipeline & Automation", "Website Content & Launch Coordination"],
     color: "bg-blue-50 text-accent",
   },
+  {
+    title: "Coordination & Scheduling",
+    description: "Streamlining complex schedules and coordinating teams across multiple time zones for maximum efficiency.",
+    icon: Calendar,
+    features: ["Multi-Timezone Coordination", "Team & Client Scheduling", "Project Timeline Management", "Meeting Coordination & Follow-ups"],
+    color: "bg-purple-50 text-primary",
+  },
+  {
+    title: "Executive Assistant",
+    description: "Comprehensive administrative support to help executives and teams focus on high-impact priorities.",
+    icon: Briefcase,
+    features: ["Calendar & Email Management", "Travel & Logistics Coordination", "Document Preparation & Reports", "Task Prioritization & Delegation"],
+    color: "bg-blue-50 text-secondary",
+  },
 ];
 
 export default function Services() {
@@ -38,7 +52,7 @@ export default function Services() {
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <motion.div
               key={index}
