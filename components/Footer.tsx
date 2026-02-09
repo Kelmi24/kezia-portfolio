@@ -25,7 +25,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Connect</h4>
             <div className="flex space-x-4">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-secondary transition-colors">
+              <a href="https://www.linkedin.com/in/kezia-estha-tumbol-49787319b/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-secondary transition-colors">
                 <Linkedin size={24} />
               </a>
               <a href="mailto:keziaestha@gmail.com" className="text-gray-300 hover:text-secondary transition-colors">

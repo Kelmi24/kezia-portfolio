@@ -49,10 +49,10 @@ export default function Contact() {
               <div className="mt-8 pt-8 border-t border-neutral-100">
                 <h4 className="text-sm font-bold text-neutral-500 mb-4 uppercase tracking-wider">Follow Me</h4>
                 <div className="flex gap-4">
-                  <a href="#" className="w-10 h-10 bg-neutral-50 rounded-full flex items-center justify-center text-neutral-600 hover:bg-primary hover:text-white transition-all">
+                  <a href="https://www.linkedin.com/in/kezia-estha-tumbol-49787319b/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-neutral-50 rounded-full flex items-center justify-center text-neutral-600 hover:bg-primary hover:text-white transition-all">
                     <Linkedin size={20} />
                   </a>
-                  <a href="#" className="w-10 h-10 bg-neutral-50 rounded-full flex items-center justify-center text-neutral-600 hover:bg-secondary hover:text-white transition-all">
+                  <a href="https://www.instagram.com/echatechqino/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-neutral-50 rounded-full flex items-center justify-center text-neutral-600 hover:bg-secondary hover:text-white transition-all">
                     <Instagram size={20} />
                   </a>
                 </div>
@@ -67,13 +67,24 @@ export default function Contact() {
             viewport={{ once: true }}
             className="bg-white p-8 rounded-3xl shadow-lg border border-neutral-100"
           >
-            <form className="space-y-6">
+            <form 
+              action="https://formsubmit.co/keziaestha@gmail.com" 
+              method="POST"
+              className="space-y-6"
+            >
+              {/* FormSubmit Configuration */}
+              <input type="hidden" name="_subject" value="New Portfolio Inquiry" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-neutral-700 mb-2">Name</label>
                   <input
                     type="text"
                     id="name"
+                    name="name"
+                    required
                     className="w-full px-4 py-3 rounded-xl bg-neutral-50 border-transparent focus:border-primary focus:bg-white focus:ring-0 transition-colors"
                     placeholder="Your Name"
                   />
@@ -83,6 +94,8 @@ export default function Contact() {
                   <input
                     type="email"
                     id="email"
+                    name="email"
+                    required
                     className="w-full px-4 py-3 rounded-xl bg-neutral-50 border-transparent focus:border-primary focus:bg-white focus:ring-0 transition-colors"
                     placeholder="your@email.com"
                   />
@@ -94,6 +107,7 @@ export default function Contact() {
                 <input
                   type="text"
                   id="subject"
+                  name="_subject"
                   className="w-full px-4 py-3 rounded-xl bg-neutral-50 border-transparent focus:border-primary focus:bg-white focus:ring-0 transition-colors"
                   placeholder="Project Inquiry"
                 />
@@ -103,7 +117,9 @@ export default function Contact() {
                 <label htmlFor="message" className="block text-sm font-medium text-neutral-700 mb-2">Message</label>
                 <textarea
                   id="message"
+                  name="message"
                   rows={4}
+                  required
                   className="w-full px-4 py-3 rounded-xl bg-neutral-50 border-transparent focus:border-primary focus:bg-white focus:ring-0 transition-colors resize-none"
                   placeholder="Tell me about your project..."
                 ></textarea>

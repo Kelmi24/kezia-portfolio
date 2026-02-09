@@ -5,7 +5,7 @@ import { GraduationCap, Award, Globe } from "lucide-react";
 
 export default function About() {
   const stats = [
-    { label: "Years Experience", value: "3+", icon: Award },
+    { label: "Years Experience", value: "5+", icon: Award },
     { label: "Projects Completed", value: "50+", icon: Globe },
     { label: "Certifications", value: "4", icon: GraduationCap },
   ];
